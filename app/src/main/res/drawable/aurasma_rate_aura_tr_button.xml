@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true"
+        android:drawable="@drawable/aurasma_rate_aura_icon_pressed"/> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/aurasma_rate_aura_icon_pressed" /> <!-- focused -->
+    <item android:state_checked="true"
+        android:drawable="@drawable/aurasma_rate_aura_icon_selected" /> <!-- checked -->
+    <item android:drawable="@drawable/aurasma_rate_aura_icon" /> <!-- default -->
+</selector>

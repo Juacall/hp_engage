@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+
+    android:background="#ffffff">
+
+    <!-- A RecyclerView with some commonly used attributes -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="@string/scan_these"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|top"
+        android:textColor="#919191"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@mipmap/icn_scanner"
+        fab:fab_type="normal"
+        fab:fab_shadow="true"
+        fab:fab_colorNormal="#0096D6"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="31dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <!---->
+    <!--fab:fab_colorPressed="@color/primary_pressed"-->
+    <!--fab:fab_colorRipple="@color/ripple"-->
+
+</RelativeLayout>

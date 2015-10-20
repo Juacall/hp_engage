@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aurasma.aursample.sampleapp.AurViewActivity"
+    android:id="@+id/auractview">
+
+    <!-- AurasmaView can be added via xml, but does require onResume() and onPause() to be called appropriately -->
+    <com.aurasma.aurasmasdk.view.AurasmaView
+        android:id="@+id/aurasma_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF7851A9"
+        />
+
+    <Button
+        android:id="@+id/aurasma_screenshot_button"
+        android:visibility="invisible"
+        android:layout_gravity="left|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aurasma_take_screenshot"/>
+
+</FrameLayout>

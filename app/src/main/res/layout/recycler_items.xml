@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <apps.hp.hp_engage.SquareImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/aura_image"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/aura_text"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/aura_image"
+        android:layout_toEndOf="@+id/aura_image"
+        android:layout_alignTop="@+id/aura_image"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Booth #"
+        android:id="@+id/textView"
+        android:layout_below="@+id/aura_text"
+        android:layout_toRightOf="@+id/aura_image"
+        android:layout_alignRight="@+id/aura_text"
+        android:layout_alignEnd="@+id/aura_text"
+        android:textColor="#999999"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp" />
+
+</RelativeLayout>

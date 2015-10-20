@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/libs/aurasmasdk.aar" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/apps/hp/hp_engage/AurViewActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/apps/hp/hp_engage/AurViewFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/apps/hp/hp_engage/AurasmaContextHolder.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/aurasma_rate_aura_icon.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/aurasma_rate_aura_icon_pressed.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/aurasma_rate_aura_icon_selected.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/aurasma_rate_aura_tr_button.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_aurview_activity.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_no_aurasma.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/icn_info.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/icn_scanner.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/icn_info.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/icn_scanner.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/icn_info.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/icn_scanner.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/icn_info.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/icn_scanner.png" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
